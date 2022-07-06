@@ -1,0 +1,14 @@
+{
+  "root": true,
+  "ignorePatterns": [
+    "**/*"
+  ],
+  "overrides": [
+    {
+      "files": "libs/feature/**/*.{ts,tsx}",
+      "rules": {
+        "array-callback-return": 2
+      }
+    }
+  ]
+}
